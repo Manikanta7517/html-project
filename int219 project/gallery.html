@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="gallery.css">
+   
+  </head>
+  <body>
+
+    <div class="gallery-section">
+      <div class="inner-width">
+        <h1>My Gallery</h1>
+        <div class="border"></div>
+        <div class="gallery">
+
+          <a href="frontgate.jpg" class="image">
+            <img src="frontgate.jpg" alt="">
+          </a>
+
+          <a href="education.jpg" class="image">
+            <img src="education.jpg" alt="">
+          </a>
+
+          <a href="mall.jpg" class="image">
+            <img src="mall.jpg" alt="">
+          </a>
+
+          <a href="hospital.jpg" class="image">
+            <img src="hospital.jpg" alt="">
+          </a>
+
+          <a href="hostel1.jpg" class="image">
+            <img src="hostel1.jpg" alt="">
+          </a>
+
+          <a href="hostel2.jpg" class="image">
+            <img src="hostel2.jpg" alt="">
+          </a>
+
+          <a href="gym.jpg" class="image">
+            <img src="gym.jpg" alt="">
+          </a>
+
+          <a href="classroom.jpg" class="image">
+            <img src="classroom.jpg" alt="">
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+
+  <script>
+    $(".gallery").magnificPopup({
+      delegate: 'a',
+      type: 'image',
+      gallery:{
+        enabled: true
+      }
+    });
+  </script>
+
+  </body>
+</html>
